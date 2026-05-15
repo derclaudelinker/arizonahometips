@@ -5,8 +5,7 @@ baseurl: ""
 
 theme: minima
 
-author:
-  name: Arizona Home Tips
+author: Arizona Home Tips
 
 permalink: /:title/
 

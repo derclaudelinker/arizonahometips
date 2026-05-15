@@ -1,0 +1,29 @@
+title: Arizona Home Tips
+description: Your trusted guide to home maintenance, repairs, and improvements in the Arizona desert.
+url: "https://arizonahometips.com"
+baseurl: ""
+
+theme: minima
+
+author:
+  name: Arizona Home Tips
+
+permalink: /:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Arizona Home Tips"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
